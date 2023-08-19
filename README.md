@@ -4,7 +4,8 @@
 
 
 0. git clone https://github.com/manyu-a/v8_de_kaihatsu/
-  
+
+
 1. git checkout main
 1. git pull
 1. git checkout -b feature/個人の名前
