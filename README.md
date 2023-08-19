@@ -13,7 +13,8 @@
 1. git push origin feature/個人の名前  
 ここまでを何度か繰り返す
 1. Pull Requestを出す  
-mainが更新されたら  
+mainが更新されたら
+git pull origin main --rebase  
 git pull origin main  
 を各自行う
 1. 1に戻る  
