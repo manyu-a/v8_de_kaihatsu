@@ -1,0 +1,10 @@
+{
+	"name": "元気が出るスイッチ",
+	"manifest_version": 3,
+	"version": "0.1",
+	"permissions": ["activeTab","scripting"],
+	"background": {
+		"service_worker": "alert.js"
+	},
+	"action": {}
+}
