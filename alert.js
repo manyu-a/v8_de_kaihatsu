@@ -1,5 +1,5 @@
 function showAlert() {
-	alert("今日も楽しく開発しよう！");
+	document.body.style.fontSize = "40px";
 }
 chrome.action.onClicked.addListener((tab) => {
 	chrome.scripting.executeScript({
