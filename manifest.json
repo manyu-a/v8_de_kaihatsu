@@ -5,9 +5,11 @@
     "description": "ウェブページの表示に彩りと破壊を",
 	"permissions": ["activeTab","scripting"],
 	"background": {
-		"service_worker": "font_color.js"
+		"service_worker": "alert.js"
 	},
-	"action": {},
+	"action": {
+        "default_popup": "popup.html"
+    },
     "icons": {
         "16": "icon16.png",
         "32": "icon32.png",
