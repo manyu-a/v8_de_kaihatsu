@@ -2,18 +2,56 @@
 <html>
   <head>
     <style>
-      body {
-        width: 300px;
-        height: 200px;
-        margin: 0;
-        padding: 10px;
-        font-family: Arial, sans-serif;
-      }
+        *,
+        *:before,
+        *:after {
+            -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+        body {
+            width: 300px;
+            height: 280px;
+            margin: 0;
+            padding: 10px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        button{
+            margin: 0.5rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.5;
+            position: relative;
+            display: inline-block;
+            padding: 1rem 4rem;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            color: #212529;
+            border-radius: 0.5rem;
+        }
+        button {
+            color: #554a4a;
+            background-color: #e67524;
+        }
+        button:hover{
+            color: #fff;
+            background: #e67524;
+        }
     </style>
   </head>
   <body>
-    <h1>My Chrome Extension</h1>
-    <button id="actionButton">Click me!</button>
+    <h1>Deform ÇµÇøÇ·Ç§ÅH</h1>
+    <button id="actionButton">Deform!</button><br>
+    <button id="reloadButton" class="Reload" >Reload</button>
     <script src="popup.js"></script>
   </body>
 </html>
