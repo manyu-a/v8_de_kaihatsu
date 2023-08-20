@@ -9,7 +9,9 @@
 ![popupのスクリーンショット](./resources/popup.png)
 
 動画  
-!
+
+https://github.com/manyu-a/v8_de_kaihatsu/blob/main/resources/demo.mp4
+
 ### メンバー
 - [井上睦月](https://github.com/manyu-a)
 - [佐藤大樹](https://github.com/sdaiki1029)
