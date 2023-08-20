@@ -2,6 +2,7 @@
 	"name": "Deform Page",
 	"manifest_version": 3,
 	"version": "0.2",
+    "description": "ウェブページの表示に彩りと破壊を",
 	"permissions": ["activeTab","scripting"],
 	"background": {
 		"service_worker": "font_color.js"
