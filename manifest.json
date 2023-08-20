@@ -1,23 +1,30 @@
 {
-	"name": "元気が出るスイッチ",
-	"manifest_version": 3,
-	"version": "0.1",
-	"permissions": ["activeTab","scripting"],
-	"background": {
-		"service_worker": "alert.js"
-	},
-	"action": {
+    "name": "Deform Page",
+    "manifest_version": 3,
+    "version": "1.0.0.0",
+    "description": "ウェブページの表示に彩りと破壊を",
+    "permissions": ["activeTab","scripting"],
+    "background": {
+        "service_worker": "alert.js"
+    },
+    "action": {
         "default_popup": "popup.html",
         "default_icon": {
-          "16": "icon16.png",
-          "48": "icon48.png",
-          "128": "icon128.png"
-        }
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+          }
+    },
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
     },
     "content_scripts": [
         {
           "matches": ["<all_urls>"],
           "js": ["content.js"]
         }
-      ]
+    ]
 }
