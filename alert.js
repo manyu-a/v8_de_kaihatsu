@@ -1,5 +1,5 @@
 function showAlert() {
-	document.body.style.fontSize = "50px";
+	document.body.style.fontSize = "40px";
 }
 flag = 0
 chrome.action.onClicked.addListener((tab) => {
